@@ -4,7 +4,6 @@ import Particles from "react-tsparticles";
 // Import your SVG images
 import sassIcon from "../../assets/sass-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
-import illustrationIcon from "../../assets/illustration.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import bootstrapIcon from "../../assets/bootstrap-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -198,11 +197,6 @@ const Warper = ({ children, className }) => (
 							},
 							{
 								src: vscodeIcon,
-								width: 20,
-								height: 20,
-							},
-							{
-								src: illustrationIcon,
 								width: 20,
 								height: 20,
 							},
