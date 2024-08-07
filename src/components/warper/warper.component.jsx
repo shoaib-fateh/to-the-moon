@@ -16,8 +16,8 @@ import wordpressIcon from "../../assets/wordpress.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import mysqlIcon from "../../assets/mysql-icon.svg";
 
-const Warper = ({ children }) => (
-	<div className="relative overflow-hidden">
+const Warper = ({ children, className }) => (
+	<div className={`relative overflow-hidden ${className}`}>
 		<Particles
 			options={{
 				fullScreen: {
