@@ -1,7 +1,12 @@
 import React from "react";
+import Warper from "./components/warper/warper.component";
 
 const App = () => {
-	return <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8"></div>;
+	return (
+		<Warper>
+			<h1>Hello World!</h1>
+		</Warper>
+	);
 };
 
 export default App;
