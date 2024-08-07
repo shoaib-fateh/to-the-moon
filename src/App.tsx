@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Main from "./comonents/main/main.component";
+import React from "react";
+import Main from "./components/main/main.component";
 
 const App = () => {
   return (

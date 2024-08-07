@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Particles from "react-tsparticles";
 
-import wordpress from "../../assets/wordpress.svg";
+import wordpress from "../../wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
