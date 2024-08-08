@@ -77,17 +77,15 @@ const HomePage = () => (
 						About
 					</div>
 					<div className="font-bold text-white mb-2">
-						Hi there! I'm Fateh, a website developer with a passion
-						for creating custom online experiences for my clients.
-						With a skill set including HTML, CSS, JavaScript, and
-						React, I have the tools to bring any website vision to
-						life.
+						As a React developer, I have a strong foundation in
+						building dynamic and responsive web applications.
 					</div>
 					<div className="font-bold text-white mb-2">
-						But my services go beyond just custom development - I'm
-						also proficient in using CMS systems like WordPress and
-						Shopify, making it easy for my clients to take control
-						of their own websites and keep them up to date.
+						I enjoy utilizing my skills in JavaScript, HTML5, CSS3,
+						and various frameworks to create user-friendly
+						interfaces. I am also experienced in backend development
+						with Node.js, ensuring that my applications are both
+						scalable and secure.
 					</div>
 					<div className="font-bold text-white mb-2">
 						So if you're in need of a new website or just looking to
@@ -321,6 +319,29 @@ const HomePage = () => (
 					}
 				/>
 			</div>
+		</section>
+
+		{/* Contacts */}
+		<section className="pt-[6rem] pb-[6rem]">
+			<h1 className="text-center text-4xl font-bold mb-5">Contact</h1>
+
+			<div className="text-center">
+				Ready to get started on your project? <br /> Contact me now for
+				a Free consultation.
+			</div>
+
+			<form action="mailto:shoaibfateh21@yahoo.com">
+				<input
+					type="email"
+					name="email"
+					placeholder="Your Email"
+					className="py-2 px-3 rounded-lg outline-none text-xl border"
+				/>
+				<textarea
+					className="py-2 px-3 rounded-lg outline-none text-xl border"
+					placeholder="Your Message"
+				></textarea>
+			</form>
 		</section>
 	</Warper>
 );
