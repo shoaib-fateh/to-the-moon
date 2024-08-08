@@ -158,21 +158,39 @@ const HomePage = () => (
 		{/* My Projects */}
 		<section className="pt-[6rem] pb-[6rem]">
 			<h1 className="text-center text-4xl font-bold mb-5">My Projects</h1>
-
 			<div className="flex gap-2">
 				<Projects
 					title="Herai Rafah ICT"
 					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
-				/>
-				<Projects
-					title="Herai Rafah ICT"
-					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
-				/>
-				<Projects
-					title="Herai Rafah ICT"
-					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
+					technologies={
+						<>
+							<img
+								src={wordpressIcon}
+								alt="Illustration"
+								className="w-10 shadow-2xl"
+							/>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-10 shadow-2xl"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-10 shadow-2xl"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-10 shadow-2xl"
+							/>
+						</>
+					}
+					githubLink="https://github.com/shoaib-fateh/herai_rafah_ict"
+					liveDemo="http://herairafah.net/"
 				/>
 			</div>
+			
 		</section>
 	</Warper>
 );
