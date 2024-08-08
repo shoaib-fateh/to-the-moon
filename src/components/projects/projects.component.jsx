@@ -30,7 +30,7 @@ const Projects = ({
 				)}
 			</div>
 		</div>
-		<span className="text-bold text-xl">{title}</span>
+		<span className="text-bold text-xl">{`${title}.`}</span>
 		<div>{`${description.slice(0, 75)}...`}</div>
 		<div className="flex gap-3 mt-4">{technologies}</div>
 	</div>

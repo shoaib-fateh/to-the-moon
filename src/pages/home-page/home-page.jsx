@@ -157,10 +157,13 @@ const HomePage = () => (
 
 		{/* My Projects */}
 		<section className="pt-[6rem] pb-[6rem]">
-			<h1 className="text-center text-4xl font-bold mb-5">My Projects</h1>
+			<h1 className="text-center text-4xl font-bold mb-10">
+				My Projects
+			</h1>
+
 			<div className="flex gap-2">
 				<Projects
-					title="Herai Rafah ICT."
+					title="Herai Rafah ICT"
 					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
 					technologies={
 						<>
@@ -190,7 +193,7 @@ const HomePage = () => (
 					liveDemo="http://herairafah.net/"
 				/>
 				<Projects
-					title="Line Civic Institution."
+					title="Line Civic Institution"
 					description="Civic empowerment at Line Civic Institution. A non-profit initiative promoting d"
 					githubLink="https://github.com/shoaib-fateh/line-civic-institution"
 					technologies={
@@ -214,7 +217,87 @@ const HomePage = () => (
 					}
 				/>
 				<Projects
-					title="Dark Calculator."
+					title="Dark Calculator"
+					description="This is an advanced JavaScript calculator with a user-friendly interface, design"
+					githubLink="https://github.com/shoaib-fateh/dark-calculator"
+					technologies={
+						<>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+						</>
+					}
+				/>
+			</div>
+
+			<div className="flex gap-2 mt-5">
+				<Projects
+					title="Xylophone"
+					description="A web app featuring a virtual xylophone, allowing users to play musical notes wi"
+					githubLink="https://github.com/shoaib-fateh/xylophone"
+					technologies={
+						<>
+							<img
+								src={wordpressIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+						</>
+					}
+				/>
+				<Projects
+					title="Line Civic Institution"
+					description="Civic empowerment at Line Civic Institution. A non-profit initiative promoting d"
+					githubLink="https://github.com/shoaib-fateh/line-civic-institution"
+					technologies={
+						<>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+						</>
+					}
+				/>
+				<Projects
+					title="Dark Calculator"
 					description="This is an advanced JavaScript calculator with a user-friendly interface, design"
 					githubLink="https://github.com/shoaib-fateh/dark-calculator"
 					technologies={
