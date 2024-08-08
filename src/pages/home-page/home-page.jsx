@@ -20,13 +20,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { faTelegram } from "@fortawesome/free-brands-svg-icons/faTelegram";
+import Projects from "../../components/projects/projects.component";
 
 const HomePage = () => (
 	<Warper className="py-24 text-white">
 		{/* Hero Section */}
 		<div className="flex flex-col md:flex-row px-5">
 			<div className="flex-1 py-20">
-				<div className="flex mb-2">
+				<div className="flex mb-2 text-xl">
 					<span>Hi</span>
 					<img
 						src={HelloGif}
@@ -35,7 +36,7 @@ const HomePage = () => (
 					/>
 					<span>, I'm</span>
 				</div>
-				<h1 className="font-bold text-6xl mb-4">Shoaib Fateh</h1>
+				<h1 className="font-bold text-6xl mb-2">Shoaib Fateh</h1>
 				<div className="font-bold text-blue-600 mb-10">
 					ReactJS Developer
 				</div>
@@ -76,11 +77,11 @@ const HomePage = () => (
 						About
 					</div>
 					<div className="font-bold text-white mb-2">
-						Hi there! I'm Vinayak, a website developer with a
-						passion for creating custom online experiences for my
-						clients. With a skill set including HTML, CSS,
-						JavaScript, and React, I have the tools to bring any
-						website vision to life.
+						Hi there! I'm Fateh, a website developer with a passion
+						for creating custom online experiences for my clients.
+						With a skill set including HTML, CSS, JavaScript, and
+						React, I have the tools to bring any website vision to
+						life.
 					</div>
 					<div className="font-bold text-white mb-2">
 						But my services go beyond just custom development - I'm
@@ -151,6 +152,26 @@ const HomePage = () => (
 						/>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		{/* My Projects */}
+		<section className="pt-[6rem] pb-[6rem]">
+			<h1 className="text-center text-4xl font-bold mb-5">My Projects</h1>
+
+			<div className="flex gap-2">
+				<Projects
+					title="Herai Rafah ICT"
+					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
+				/>
+				<Projects
+					title="Herai Rafah ICT"
+					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
+				/>
+				<Projects
+					title="Herai Rafah ICT"
+					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
+				/>
 			</div>
 		</section>
 	</Warper>
