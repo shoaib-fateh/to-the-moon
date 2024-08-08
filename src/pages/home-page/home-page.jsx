@@ -337,6 +337,7 @@ const HomePage = () => (
 					placeholder="Your Email"
 					className="py-2 px-3 rounded-lg outline-none text-xl border"
 				/>
+				
 				<textarea
 					className="py-2 px-3 rounded-lg outline-none text-xl border"
 					placeholder="Your Message"
