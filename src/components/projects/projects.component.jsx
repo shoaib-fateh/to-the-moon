@@ -12,8 +12,8 @@ const Projects = ({
 	githubLink,
 	liveDemo = null,
 }) => (
-	<div className="flex-1 bg-blue-950 px-5 py-5 rounded-3xl gap-3 w-fit mx-auto">
-		<div className="flex my-2align-middle mb-5">
+	<div className="flex-1 bg-blue-950 px-5 pt-7 pb-4 rounded-3xl gap-5 w-fit mx-auto">
+		<div className="flex my-2align-middle mb-2">
 			<div className="flex-2 flex text-2xl w-full">
 				<FontAwesomeIcon icon={faFolderOpen} />
 			</div>
@@ -31,8 +31,8 @@ const Projects = ({
 			</div>
 		</div>
 		<span className="text-bold text-xl">{title}</span>
-		<div>{`${description.slice(0, 85)}...`}</div>
-		<div className="flex gap-3 mt-5">{technologies}</div>
+		<div>{`${description.slice(0, 75)}...`}</div>
+		<div className="flex gap-3 mt-4">{technologies}</div>
 	</div>
 );
 

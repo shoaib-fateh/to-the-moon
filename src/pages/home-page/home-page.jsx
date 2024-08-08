@@ -160,37 +160,84 @@ const HomePage = () => (
 			<h1 className="text-center text-4xl font-bold mb-5">My Projects</h1>
 			<div className="flex gap-2">
 				<Projects
-					title="Herai Rafah ICT"
+					title="Herai Rafah ICT."
 					description="Herai Rafah ICT is a comprehensive project aimed at integrating information and you even cant imagin how powerful is this."
 					technologies={
 						<>
 							<img
 								src={wordpressIcon}
 								alt="Illustration"
-								className="w-10 shadow-2xl"
+								className="w-8"
 							/>
 							<img
 								src={htmlIcon}
 								alt="Illustration"
-								className="w-10 shadow-2xl"
+								className="w-8"
 							/>
 							<img
 								src={cssIcon}
 								alt="Illustration"
-								className="w-10 shadow-2xl"
+								className="w-8"
 							/>
 							<img
 								src={jsIcon}
 								alt="Illustration"
-								className="w-10 shadow-2xl"
+								className="w-8"
 							/>
 						</>
 					}
 					githubLink="https://github.com/shoaib-fateh/herai_rafah_ict"
 					liveDemo="http://herairafah.net/"
 				/>
+				<Projects
+					title="Line Civic Institution."
+					description="Civic empowerment at Line Civic Institution. A non-profit initiative promoting d"
+					githubLink="https://github.com/shoaib-fateh/line-civic-institution"
+					technologies={
+						<>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+						</>
+					}
+				/>
+				<Projects
+					title="Dark Calculator."
+					description="This is an advanced JavaScript calculator with a user-friendly interface, design"
+					githubLink="https://github.com/shoaib-fateh/dark-calculator"
+					technologies={
+						<>
+							<img
+								src={htmlIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={cssIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+							<img
+								src={jsIcon}
+								alt="Illustration"
+								className="w-8"
+							/>
+						</>
+					}
+				/>
 			</div>
-			
 		</section>
 	</Warper>
 );
